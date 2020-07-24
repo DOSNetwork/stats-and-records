@@ -51,10 +51,10 @@ async function analyze_withdraw() {
     let withdrewAmount = web3.utils.fromWei(eventList[i].returnValues.tokenAmount);
     let rewards = 0;
     if (isNode) {
-      let rewards = await StakingInstance.methods.getNodeRewardTokensRT(nodeAddr).call();
+      rewards = await StakingInstance.methods.getNodeRewardTokensRT(nodeAddr).call();
       rewards = web3.utils.fromWei(rewards);
     } else {
-      let rewards = await StakingInstance.methods.getDelegatorRewardTokensRT(receiver, nodeAddr).call();
+      rewards = await StakingInstance.methods.getDelegatorRewardTokensRT(receiver, nodeAddr).call();
       rewards = web3.utils.fromWei(rewards);
     }
     console.log(`[${receiver}] withdrew (${withdrewAmount}) DOS. isNode (${isNode}), still have (${rewards}) DOS reward to claim`);
@@ -74,10 +74,10 @@ async function analyze_unbond() {
     let amount = web3.utils.fromWei(eventList[i].returnValues.tokenAmount);
     let rewards = 0;
     if (isNode) {
-      let rewards = await StakingInstance.methods.getNodeRewardTokensRT(nodeAddr).call();
+      rewards = await StakingInstance.methods.getNodeRewardTokensRT(nodeAddr).call();
       rewards = web3.utils.fromWei(rewards);
     } else {
-      let rewards = await StakingInstance.methods.getDelegatorRewardTokensRT(unbondFrom, nodeAddr).call();
+      rewards = await StakingInstance.methods.getDelegatorRewardTokensRT(unbondFrom, nodeAddr).call();
       rewards = web3.utils.fromWei(rewards);
     }
     console.log(`[${unbondFrom}] unbonded from node [${nodeAddr}] with (${amount}) DOS, still have (${rewards}) DOS reward`);
@@ -105,4 +105,3 @@ async function analyze_claim() {
   await analyze_withdraw();
   await analyze_claim(); 
 })();
-
