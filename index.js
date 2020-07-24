@@ -84,9 +84,25 @@ async function analyze_unbond() {
   }
 }
 
+async function analyze_claim() {
+  const option = {
+    fromBlock: startBlock,
+    toBlock: 'latest'
+  };
+  const eventList = await StakingInstance.getPastEvents('ClaimReward', option);
+  for (let i = 0; i < eventList.length; i++) {
+    let receiver = eventList[i].returnValues.to;
+    let nodeRunner = eventList[i].returnValues.nodeRunner;
+    let amount = web3.utils.fromWei(eventList[i].returnValues.amount);
+    console.log(`[${receiver}] nodeRunner (${nodeRunner}) has claimed (${amount}) DOS reward`);
+  }
+}
+
 (async () => {
   await analyze_node();
   await analyze_delegate();
   await analyze_unbond();
   await analyze_withdraw();
+  await analyze_claim(); 
 })();
+
