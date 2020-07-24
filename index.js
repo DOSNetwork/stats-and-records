@@ -18,7 +18,7 @@ async function analyze_delegate() {
     let amount = web3.utils.fromWei(eventList[i].returnValues.amount);
     let rewards = await StakingInstance.methods.getDelegatorRewardTokensRT(delegator, node).call();
     rewards = web3.utils.fromWei(rewards);
-    console.log(`[${delegator}] delegated (${amount}) DOS to [${amount}], received (${rewards}) DOS reward`);
+    console.log(`[${delegator}] delegated (${amount}) DOS to [${node}], has (${rewards}) DOS reward to claim`);
   }
 }
 
@@ -34,7 +34,7 @@ async function analyze_node() {
     let amount = web3.utils.fromWei(eventList[i].returnValues.selfStakedAmount);
     let rewards = await StakingInstance.methods.getNodeRewardTokensRT(nodeAddr).call();
     rewards = web3.utils.fromWei(rewards);
-    console.log(`[${ownerAddr}] started node [${nodeAddr}] with (${amount}) DOS, received (${rewards}) DOS reward`);
+    console.log(`[${ownerAddr}] started node [${nodeAddr}] with (${amount}) DOS, has (${rewards}) DOS reward to claim`);
   }
 }
 
@@ -57,7 +57,7 @@ async function analyze_withdraw() {
       let rewards = await StakingInstance.methods.getDelegatorRewardTokensRT(receiver, nodeAddr).call();
       rewards = web3.utils.fromWei(rewards);
     }
-    console.log(`[${receiver}] withdrew (${withdrewAmount}) DOS. isNode? (${isNode}), still have (${rewards}) DOS reward`);
+    console.log(`[${receiver}] withdrew (${withdrewAmount}) DOS. isNode (${isNode}), still have (${rewards}) DOS reward to claim`);
   }
 }
 
