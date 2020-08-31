@@ -7,3 +7,4 @@
 * Weekly burn history from ecosystem reserve:
   - https://etherscan.io/tx/0xe39d380ce6f0e0aea4976a69ee49fac9b918f71edddc92148b604820857e734c (08/17/2020)
   - https://etherscan.io/tx/0xc342a3f82acfe15c07c42218d81cac6c55eb902ebc970fcca474cb3960d782a1 (08/24/2020)
+  - https://etherscan.io/tx/0xab914017fc3da9d08b2e32fb2eaab3f17c4a0984f9ded8d62599db3d473e18d1 (09/01/2020)
