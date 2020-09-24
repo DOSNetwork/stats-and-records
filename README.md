@@ -1,5 +1,9 @@
 * Cut-off time: 01:30 am 07/24/2020 (EST)
 * Staked tokens + rewards to claim will be calculated and dropped according to the raw data.
+* 7.5M token burn in exchange for SPARTA:
+  - https://twitter.com/DOSNetwork/status/1305343077968539650 (event and intruction)
+  - https://etherscan.io/tx/0x7a36ea537c5c9ef2d4ff8f3cced6a401764f4248b8d790aef28e250d0b1cccac (ERC20 burn tx)
+  - https://bscscan.com/token/0xdc0f0a5719c39764b011edd02811bd228296887c?a=0x000000000000000000000000000000000000dead (BEP2/BEP20 burn address)
 * Bi-weekly burn history of rewards generated from all foundation nodes:
   - https://etherscan.io/tx/0xec5d07d700bfda7c61f9d5b7ff87289d586753d108172d023d49234dc107a56b (07/24/2020)
   - https://etherscan.io/tx/0xed755d464e6e58cbc09b80823e37774c54a6dfea595968ef42aa79ba76d341e9 (08/10/2020)
