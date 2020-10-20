@@ -1,5 +1,13 @@
+### Token contract upgrade staked principal + rewards calculation 
 * Cut-off time: 01:30 am 07/24/2020 (EST)
 * Staked tokens + rewards to claim will be calculated and dropped according to the raw data.
+
+### BAL distribution for balancer LPs:
+
+
+### Token burn history and records:
+* 50M pre-mainnet token burn in Jan 2020:
+  - https://etherscan.io/tx/0x85b6dc8e0ab7bf3f5fd86a7967585bdb13dd23f4bcc974e2a6d303acf0e5dc83
 * 7.5M token burn in exchange for SPARTA:
   - https://twitter.com/DOSNetwork/status/1305343077968539650 (event and intruction)
   - https://etherscan.io/tx/0x7a36ea537c5c9ef2d4ff8f3cced6a401764f4248b8d790aef28e250d0b1cccac (ERC20 burn tx)
