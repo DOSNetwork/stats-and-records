@@ -4,6 +4,8 @@
 
 ### BAL distribution for balancer LPs:
  - From block 10669884 to block 11050199, 599.484179263934228061 BAL to distribute: 
+   * Claim BAL: https://etherscan.io/tx/0x02b1183ad0832289807b02cb3d31a727e47e86ca73765e08633092df6b7c9dff
+   * Distribute BAL: https://etherscan.io/tx/0xdafafa76a370114c3eac92e8ecdadd667ac2db060c3172011f1630019db4b7aaf
 
 
 ### Token burn history and records:
