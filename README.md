@@ -3,10 +3,12 @@
 * Staked tokens + rewards to claim will be calculated and dropped according to the raw data.
 
 ### Monthly BAL claim & distribution for balancer LPs:
- - From block 10669884 to block 11050199, 599.484179263934228061 BAL to distribute:
+ - From block 10669884 to block 11050199, 599.484179263934228061 BAL to be distributed:
+   * Finished on 10/20/2020
    * Claim BAL: https://etherscan.io/tx/0x02b1183ad0832289807b02cb3d31a727e47e86ca73765e08633092df6b7c9dff
    * Distribute BAL: https://etherscan.io/tx/0xdafafa76a370114c3eac92e8ecdadd667c2db060c3172011f1630019db4b7aaf
- - From block 11050120 to block 11283995, 283.050459434367371786 BAL to distribute:
+ - From block 11050120 to block 11283995, 283.050459434367371786 BAL to be distributed:
+   * Finished on 11/18/2020
    * Claim BAL: https://etherscan.io/tx/0x14071b51e1fc9b470b654195d5b9b81a3bea50672fa0f4e4c8ffcd3869c4b3d6
    * Distribute BAL: https://etherscan.io/tx/0xe88fca522052039747b567e0ee867d6167f25c6b5e65712bdda70c4bd432f048
 
