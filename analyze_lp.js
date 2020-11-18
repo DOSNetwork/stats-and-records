@@ -5,19 +5,24 @@ const web3 = new Web3(new Web3.providers.HttpProvider('https://mainnet.infura.io
 const LpAddr = '0xE41363abB45fFb173ec512CFd0B9A8ac03e05F68';
 const LpInstance = new web3.eth.Contract(StakingABI, LpAddr);
 
+// Skip dust distribution to save us some gas.
+const epsilon = 1e-9;
+const poolBeginBlock = 10669884;
+
 ///// config start /////
-const startBlock = 10669884;
+const lastDistributedBlock = 11050199;  // startBlock = lastDistributedBlock + 1
 // Last time BAL was distributed.
-const endBlock = 11050199;
-// Total number of bal to distribute
-const balNum = 599.484179263934228061;
+const endBlock = 11283995;
+// Total number of bal to be distributed.
+const balNum = 283.050459434367371786;
 ///// config end /////
 
 async function analyze_stake_withdraw() {
-  console.log(`Analyzing from block ${startBlock} to block ${endBlock}...\n`);
+  console.log(`Pool started from block ${poolBeginBlock}, last distributed to block ${lastDistributedBlock},` +
+    ` now analyzing BAL distribution data from block ${lastDistributedBlock} to block ${endBlock}...\n`);
 
   const option = {
-    fromBlock: startBlock,
+    fromBlock: poolBeginBlock,
     toBlock: endBlock
   };
   let weight = new Map();
@@ -30,7 +35,12 @@ async function analyze_stake_withdraw() {
     let amount = web3.utils.fromWei(stakeList[i].returnValues.amount);
     let blkNum = stakeList[i].blockNumber;
     
-    let w = (endBlock - blkNum) * amount;
+    let w = 0;
+    if (blkNum <= lastDistributedBlock) {
+      w = (endBlock - lastDistributedBlock) * amount;
+    } else {
+      w = (endBlock - blkNum) * amount;
+    }
     totalWeight += w;
     if (weight.has(staker)) {
       weight.set(staker, weight.get(staker) + w);
@@ -47,7 +57,12 @@ async function analyze_stake_withdraw() {
     let amount = web3.utils.fromWei(withdrawList[i].returnValues.amount);
     let blkNum = withdrawList[i].blockNumber;
     
-    let w = (endBlock - blkNum) * amount;
+    let w = 0;
+    if (blkNum <= lastDistributedBlock) {
+      w = (endBlock - lastDistributedBlock) * amount;
+    } else {
+      w = (endBlock - blkNum) * amount;
+    }
     totalWeight -= w;
     weight.set(staker, weight.get(staker) - w);
     console.log(`${staker} withdrew ${amount} LP tokens on block ${blkNum}`);
@@ -56,7 +71,9 @@ async function analyze_stake_withdraw() {
   console.log('weight = ', weight);
 
   weight.forEach(function(v, k) {
-    console.log(k, ',', v / totalWeight * balNum)
+    let amt = v / totalWeight * balNum;
+    if (amt <= epsilon) amt = 0;
+    console.log(k, ',', amt)
   })
 }
 
