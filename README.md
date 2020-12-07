@@ -47,3 +47,4 @@
   - https://etherscan.io/tx/0x7a8d3f46fc8448759446e65b6f2c98323173c4a48ced8b6340ea0c9df1f31e0d (11/16/2020)
   - https://etherscan.io/tx/0xa87c850f80ebd3bbcc9d9aa47d4ed6ceb6687591c32161f1cfcd562b19a1733f (11/23/2020)
   - https://etherscan.io/tx/0x717dd072b8ee01b6613371bb119957fe36c4fa27a3bcd0055126406e8d73fa1d (11/30/2020)
+  - https://etherscan.io/tx/0xcf8a20e7d0a05654cf92a4542909f2401c4482f0027fe4e6ab8cf977a5c42d5a (12/07/2020)
