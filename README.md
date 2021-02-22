@@ -43,6 +43,7 @@
   - https://etherscan.io/tx/0x3af8b58e3716886767fd14715e46f55bc71c2bbc8931f5e232311734088da04d (01/11/2021)
   - https://etherscan.io/tx/0x237784fc367634addef0d1dd317620c1e622bb8e9ea3da1a98504983cf37b107 (01/25/2021)
   - https://etherscan.io/tx/0xb2167520e066a2a005211d8d5b7760494bdce70b888a4bc25fc1c3fa808a34a0 (02/08/2021)
+  - https://etherscan.io/tx/0x4a23e3ad861175b38f1c848a309397552ff88b014032abf5d1ef9218ead19d08 (02/22/2021)
 * Weekly burn history from ecosystem reserve:
   - https://etherscan.io/tx/0xe39d380ce6f0e0aea4976a69ee49fac9b918f71edddc92148b604820857e734c (08/17/2020)
   - https://etherscan.io/tx/0xc342a3f82acfe15c07c42218d81cac6c55eb902ebc970fcca474cb3960d782a1 (08/24/2020)
@@ -71,3 +72,4 @@
   - https://etherscan.io/tx/0xe4a6dd1e95c6f48f9c92ccf6a313daeb458d32ea61b65756aa2f8e1902fdeba9 (02/01/2021)
   - https://etherscan.io/tx/0xb80cbfd2091a5234840be62a507ad2a9969b5f4dff956e2ca41c6ca8bfd858ee (02/08/2021)
   - https://etherscan.io/tx/0xadef300c22fa5949f1a133273ebfa6adfe8ef8e25b28e9c565b64b32a78c785f (02/15/2021)
+  - https://etherscan.io/tx/0x4c04324532cf2609e98859a4fd8e9baf874e93bbca327fc3de57bc483b97367e (02/22/2021)
