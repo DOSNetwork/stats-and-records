@@ -19,6 +19,10 @@
    * Finished on 01/25/2021
    * Claim BAL: https://etherscan.io/tx/0xdd06f0c76c57db8d33a27d9bf805a3bc8de91796806cc0743c15d3ab6f9705cc
    * Distribute BAL: https://etherscan.io/tx/0x3ddc0e7d46271d5dc9b3ce2927ceedaf35940dde60eadeb3ab767df95add07e3
+ - From block 11722991 to block 12000183, 72.583215678391285408 BAL to be distributed:
+   * Finished on 03/08/2021
+   * Claim BAL: https://etherscan.io/tx/0xaa979b06098fab1a9c013cabd4405931505b3d7b3ff7dd59c7cadddfb221b6f6
+   * Distribute BAL: https://etherscan.io/tx/0x452c57f3e5255ed6fd6b1bc7b2ddca9bd5099f385e02f38fec433614134ea59d
 
 ### Token burn history and records:
 * 50M pre-mainnet token burn in Jan 2020:
@@ -44,6 +48,7 @@
   - https://etherscan.io/tx/0x237784fc367634addef0d1dd317620c1e622bb8e9ea3da1a98504983cf37b107 (01/25/2021)
   - https://etherscan.io/tx/0xb2167520e066a2a005211d8d5b7760494bdce70b888a4bc25fc1c3fa808a34a0 (02/08/2021)
   - https://etherscan.io/tx/0x4a23e3ad861175b38f1c848a309397552ff88b014032abf5d1ef9218ead19d08 (02/22/2021)
+  - https://etherscan.io/tx/0xca3ae1e178a322ca9ea186bd810817a1f5469764b026ffe39c2781088c7f3576 (03/08/2021)
 * Weekly burn history from ecosystem reserve:
   - https://etherscan.io/tx/0xe39d380ce6f0e0aea4976a69ee49fac9b918f71edddc92148b604820857e734c (08/17/2020)
   - https://etherscan.io/tx/0xc342a3f82acfe15c07c42218d81cac6c55eb902ebc970fcca474cb3960d782a1 (08/24/2020)
@@ -74,3 +79,4 @@
   - https://etherscan.io/tx/0xadef300c22fa5949f1a133273ebfa6adfe8ef8e25b28e9c565b64b32a78c785f (02/15/2021)
   - https://etherscan.io/tx/0x4c04324532cf2609e98859a4fd8e9baf874e93bbca327fc3de57bc483b97367e (02/22/2021)
   - https://etherscan.io/tx/0xb7e56310cb37ccd2731670eaa000a0841768d2d25879c7ef21c258d6dadcb51c (03/01/2021)
+  - https://etherscan.io/tx/0x5950b059267a130c50bd9b207108c5cb358e509a2123cc9905b1d11d98494066 (03/08/2021)
