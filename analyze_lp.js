@@ -10,11 +10,11 @@ const epsilon = 1e-9;
 const poolBeginBlock = 10669884;
 
 ///// config start /////
-const lastDistributedBlock = 11722990;  // startBlock = lastDistributedBlock + 1
+const lastDistributedBlock = 12000183;  // startBlock = lastDistributedBlock + 1
 // Last time BAL was distributed.
-const endBlock = 12000183;
+const endBlock = 12180678;
 // Total number of bal to be distributed.
-const balNum = 72.583215678391285408;
+const balNum = 25.641861180851908131;
 ///// config end /////
 
 async function analyze_stake_withdraw() {

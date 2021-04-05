@@ -23,6 +23,10 @@
    * Finished on 03/08/2021
    * Claim BAL: https://etherscan.io/tx/0xaa979b06098fab1a9c013cabd4405931505b3d7b3ff7dd59c7cadddfb221b6f6
    * Distribute BAL: https://etherscan.io/tx/0x452c57f3e5255ed6fd6b1bc7b2ddca9bd5099f385e02f38fec433614134ea59d
+ - From block 12000184 to block 12180678, 25.641861180851908131 BAL to be distributed:
+   * Finished on 04/05/2021
+   * Claim BAL: https://etherscan.io/tx/0xd899f4ce0a9b9301076754b684c27574830389cb2cdcb7d9a2f5ed0c22f633a7
+   * Dsitribute BAL: https://etherscan.io/tx/0x5a62771e88187c24de404db5d4c4db20afa3b08197b92e3754cc7fdbb1e05917
 
 ### Token burn history and records:
 * 50M pre-mainnet token burn in Jan 2020:
