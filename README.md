@@ -35,7 +35,7 @@
   - https://twitter.com/DOSNetwork/status/1305343077968539650 (event and intruction)
   - https://etherscan.io/tx/0x7a36ea537c5c9ef2d4ff8f3cced6a401764f4248b8d790aef28e250d0b1cccac (ERC20 burn tx)
   - https://bscscan.com/token/0xdc0f0a5719c39764b011edd02811bd228296887c?a=0x000000000000000000000000000000000000dead (BEP2/BEP20 burn address)
-* Bi-weekly burn history of rewards generated from all foundation nodes:
+* Burning history of rewards generated from all foundation nodes (It has been chaned to **monthly** burn since 04/25/2021 for saving gas costs):
   - https://etherscan.io/tx/0xec5d07d700bfda7c61f9d5b7ff87289d586753d108172d023d49234dc107a56b (07/24/2020)
   - https://etherscan.io/tx/0xed755d464e6e58cbc09b80823e37774c54a6dfea595968ef42aa79ba76d341e9 (08/10/2020)
   - https://etherscan.io/tx/0x4654b4d2440bf12ef724103d6fc313efe7a2fa03aa0d065b750f26b35d6e2ca1 (08/24/2020)
@@ -55,7 +55,9 @@
   - https://etherscan.io/tx/0xca3ae1e178a322ca9ea186bd810817a1f5469764b026ffe39c2781088c7f3576 (03/08/2021)
   - https://etherscan.io/tx/0xbbd27ec63c1b8f7fd4f5d7fe7e44d82e7501b78aae58279d19d036f67c49f2b4 (03/22/2021)
   - https://etherscan.io/tx/0xc43cca8256629e98e405f62de9683078b7b1f3be80a39d0dd5b2575b50d4baf7 (04/05/2021)
-* Weekly burn history from ecosystem reserve:
+  - https://etherscan.io/tx/0x83078b4740caed4eb0b6c79afac90843feddb65ec3249b72623044d8096d5bc0 (04/25/2021)
+  
+* Burning history from ecosystem reserve ((It has been chaned to **monthly** burn since 04/25/2021 for saving gas costs)):
   - https://etherscan.io/tx/0xe39d380ce6f0e0aea4976a69ee49fac9b918f71edddc92148b604820857e734c (08/17/2020)
   - https://etherscan.io/tx/0xc342a3f82acfe15c07c42218d81cac6c55eb902ebc970fcca474cb3960d782a1 (08/24/2020)
   - https://etherscan.io/tx/0xab914017fc3da9d08b2e32fb2eaab3f17c4a0984f9ded8d62599db3d473e18d1 (09/01/2020)
@@ -92,3 +94,4 @@
   - https://etherscan.io/tx/0xfdf4a67c9586d68d28db8810020fb26f0e05dd7e652af6d93744bd5d967dd5f4 (04/05/2021)
   - https://etherscan.io/tx/0x234fbd7f74a18ee78da390e7430530cdee932e60834a0529036e2491a432ddc0 (04/12/2021)
   - https://etherscan.io/tx/0x43ca772ef22a7bb0d3dc81fc62a4a9408e20020bb526591c7220a7317f15afba (04/19/2021)
+  - https://etherscan.io/tx/0xcca5446dba3111561fd68367051645275e0db4ad9e7245b570a4ccbbb75745b9 (04/25/2021)
