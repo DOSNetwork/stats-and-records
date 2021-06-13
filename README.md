@@ -26,11 +26,15 @@
  - From block 12000184 to block 12180678, 25.641861180851908131 BAL to be distributed:
    * Finished on 04/05/2021
    * Claim BAL: https://etherscan.io/tx/0xd899f4ce0a9b9301076754b684c27574830389cb2cdcb7d9a2f5ed0c22f633a7
-   * Dsitribute BAL: https://etherscan.io/tx/0x5a62771e88187c24de404db5d4c4db20afa3b08197b92e3754cc7fdbb1e05917
+   * Distribute BAL: https://etherscan.io/tx/0x5a62771e88187c24de404db5d4c4db20afa3b08197b92e3754cc7fdbb1e05917
  - From block 12180679 to block 12401216, 25.467877842092378593 BAL to be distributed:
    * Finished on 05/10/2021
    * Claim BAL: https://etherscan.io/tx/0x9b62d552014fe78ba099a2e4531d504fcac19a16d4ef81a9d4cdb96d2247f3aa
-   * Dsitribute BAL: https://etherscan.io/tx/0x474ec99bc77d0b556829ffaf0793f9bd2519ef1c5bf5a666497bcc162c1f131d
+   * Distribute BAL: https://etherscan.io/tx/0x474ec99bc77d0b556829ffaf0793f9bd2519ef1c5bf5a666497bcc162c1f131d
+ - From block 12401217 to block 12625667, 25.979740609045074428 BAL to be distributed:
+   * Finished on 06/13/2021
+   * Claim BAL: https://etherscan.io/tx/0x60e69bb1e63acfbaa87ac88ac9cbe28c43d6ea3707d9bb19f41b0c78c6201261
+   * Distribute BAL: https://etherscan.io/tx/0x0192c8d02c3e8c27e011b61decfb04c8f5e8a27e89bd5f45405322ef3caf2b43
 
 
 ### Token burn history and records:
