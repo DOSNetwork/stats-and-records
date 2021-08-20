@@ -39,6 +39,8 @@
    * Finished on 07/18/2021
    * Claim BAL: https://etherscan.io/tx/0xc30741d0627046df64cfe653ef271a7748fb25d51fc5292e3470e8eeea586dc9
    * Distribute BAL: https://etherscan.io/tx/0xe146ec54840c358f383a9b76d73ec076451c2e2bca24a8c537f3b18e450ed435
+ - **There's no more BAL distribution starting from August 2021, as Balancer has changed their liquidity mining program:**
+   * No pending BAL to be claimed or distributed: https://claim.balancer.fi/#/0xE41363abB45fFb173ec512CFd0B9A8ac03e05F68 
 
 ### Token burn history and records:
 * 50M pre-mainnet token burn in Jan 2020:
