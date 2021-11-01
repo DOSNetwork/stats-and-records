@@ -49,7 +49,7 @@
   - https://twitter.com/DOSNetwork/status/1305343077968539650 (event and intruction)
   - https://etherscan.io/tx/0x7a36ea537c5c9ef2d4ff8f3cced6a401764f4248b8d790aef28e250d0b1cccac (ERC20 burn tx)
   - https://bscscan.com/token/0xdc0f0a5719c39764b011edd02811bd228296887c?a=0x000000000000000000000000000000000000dead (BEP2/BEP20 burn address)
-* Burning history of rewards generated from all foundation nodes (It has been chaned to **monthly** burn since 04/25/2021 for saving gas costs):
+* Burning history of rewards generated from all foundation nodes (It has been chaned to **Quarterly** burn since 11/01/2021 for saving gas costs):
   - https://etherscan.io/tx/0xec5d07d700bfda7c61f9d5b7ff87289d586753d108172d023d49234dc107a56b (07/24/2020)
   - https://etherscan.io/tx/0xed755d464e6e58cbc09b80823e37774c54a6dfea595968ef42aa79ba76d341e9 (08/10/2020)
   - https://etherscan.io/tx/0x4654b4d2440bf12ef724103d6fc313efe7a2fa03aa0d065b750f26b35d6e2ca1 (08/24/2020)
@@ -75,6 +75,7 @@
   - https://etherscan.io/tx/0x90168e3426fcba48d44a58e5fd46e41b0b932d4da01a35a49008b45ca98462e4 (07/25/2021)
   - https://etherscan.io/tx/0xec87e5d4688b86b6b9fb1075db8b8c2780307866fda19e642325787e28178af9 (08/31/2021)
   - https://etherscan.io/tx/0xfb2e2bc4cb6283ec4026c59abaa31305dae27d0743baefb171cbc7d011900cf1 (09/28/2021)
+  - https://etherscan.io/tx/0x5db2d274b38bca2d46be264c58f4f6fd42c4458ebb13704c416fc7682083a6cf (11/01/2021)
   
 * Burning history from ecosystem reserve ((It has been chaned to **monthly** burn since 04/25/2021 for saving gas costs)):
   - https://etherscan.io/tx/0xe39d380ce6f0e0aea4976a69ee49fac9b918f71edddc92148b604820857e734c (08/17/2020)
@@ -119,3 +120,4 @@
   - https://etherscan.io/tx/0x36c18ce59da41677efb2dede171f8e4a7e20816b39687a399d2b700350539328 (07/25/2021)
   - https://etherscan.io/tx/0xb46a794d3e10e00fccbdd315e5a2bbaa9d1698cdaa9c4dfc57b3e3d9853d85b1 (08/31/2021)
   - https://etherscan.io/tx/0x2c053cc3f2e43df65307208615f7f7427f42d1d9409e8e52fdc784e04cd07b1c (09/28/2021)
+  - https://etherscan.io/tx/0xcffef1261c7a4bf45fb163d0b188f33926c9a464e7a6255a0fab600c0b56c61b (11/01/2021)
